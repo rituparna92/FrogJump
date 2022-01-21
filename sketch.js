@@ -55,9 +55,6 @@ function spawnCoin() {
   
   if (frameCount % 280 === 0) {
     //make the x position of the coin and climber the same
-    coin = createSprite(Math.round(random(10,750)),80,200,50);
-    coin.addImage("coin",coinImg);
-    coinImg.setVelocity(0,3);
   }
 }
 
